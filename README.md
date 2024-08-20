@@ -1,5 +1,5 @@
 # Modern-CPP
-This repo is for the essentials Modern features of C++.
+This repo is for the essentials Modern concepts of C++.
 1. Threads
     -Multithreading
     -Synchronization
