@@ -13,13 +13,13 @@ This repo is for the essentials Modern concepts of C++.
        -Thread library
        -Range based for loop (for(auto i:n){cout<<i<<endl;})
        -Lambda expressions ([](int a, int b){return a+b;})
-       -‘final’ and ‘override’ (method declared as final can not be override by derived class. override specifier ensures that the function is virtual and is overriding a             -virtual function from a base class.)
+       -‘final’ and ‘override’ (method declared as final can not be override by derived class. override specifier ensures that the function is virtual and is overriding a virtual function from a base class.)
        -‘delete’ and ‘default’ functions (void fun2()=delete; Base() = default;)
 3. C++ 14
         -Digits separator (long a = 1'00'000;)
         -Generic lambdas (auto keyword introduced to support generic datatypes, [](int a, int b){return a+b;})
         -Return type deduction (auto keyword introduced to support deduce return type, auto f(int i){return i;})
-        -Deprecated attribute ( indicate that a unit (function, class, etc.) is discouraged and likely yield compilation warnings. If a reason is provided, it will be         included in the warnings.)
+        -Deprecated attribute ( indicate that a unit (function, class, etc.) is discouraged and likely yield compilation warnings. If a reason is provided, it will be included in the warnings.)
         [[deprecated]]
         void old_method();
         [[deprecated("Use new_method instead")]]
